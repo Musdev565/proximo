@@ -48,10 +48,12 @@ Le dossier [`proximo-ucc-docs/`](./proximo-ucc-docs/) contient l'ensemble des sp
 ## 🗺️ Feuille de Route MVP
 
 1. [x] Documentation et cadrage métier complets
-2. [x] Initialisation du dépôt Git
-3. [ ] Configuration du repository distant GitHub
-4. [ ] Modélisation et initialisation du socle Spring Boot (PostgreSQL + Flyway + tests de concurrence)
-5. [ ] Mise en place de l'API REST sécurisée (Auth JWT, Rôles)
-6. [ ] Initialisation de l'application front-end React (Mobile-First / PWA)
-7. [ ] Intégration du plan 2D des auditoires et du regroupement des commandes
-8. [ ] Déploiement gratuit et phase de test terrain
+2. [x] Initialisation du dépôt Git local
+3. [x] Configuration du repository distant GitHub (`Musdev565/proximo`)
+4. [x] Initialisation du socle front-end React (Vite, TypeScript, Tailwind CSS, Interface Mobile-First)
+5. [x] Initialisation du socle back-end Spring Boot (Java 24, Maven, JPA, Security, H2/PostgreSQL)
+6. [ ] Modélisation des entités JPA, migrations Flyway et règles d'intégrité
+7. [ ] Tests unitaires et d'intégration de la concurrence (stock vs réservé)
+8. [ ] API REST sécurisée (Auth JWT, Rôles, Endpoints Acheteur & Vendeur)
+9. [ ] Intégration du plan 2D des auditoires et du regroupement des commandes
+10. [ ] Déploiement gratuit (Render / Supabase) et phase de test terrain

@@ -8,6 +8,7 @@
 5. **Validation des vendeurs** : aucune ; compte unique, bouton « Je veux vendre ».
 6. **Nom** : **Proximo UCC**.
 7. **Étudiant absent** : commande annulée par le vendeur dans l'app, réservation libérée.
+8. **Traitement des commandes** : toute commande est traitée **au fil de l'eau** dès qu'elle arrive le matin (pas de sélection de créneau de pause dans le MVP).
 
 ## Encore ouverts [À DÉFINIR]
 1. **Plan des auditoires** : l'auteur fournira des croquis sur papier (un par niveau) + explications.
@@ -15,4 +16,3 @@
 3. **Notifications** : polling au début ; push/WebSocket plus tard ?
 4. **Abus** : que faire d'un vendeur qui annule trop, ou d'un étudiant qui commande sans être là
    (limites, signalement, suspension) ? À décider après le test terrain.
-5. **Précommande** : un étudiant peut-il choisir pour quelle pause il commande (10h, 11h, midi) 
