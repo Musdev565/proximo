@@ -1,0 +1,33 @@
+# MODÈLE — Remplacer par les vrais auditoires de l'UCC.
+# Les valeurs ci-dessous sont FICTIVES (exemples de format uniquement).
+
+batiment: UCC
+niveaux:
+  - niveau: 1
+    entree: "à préciser (ex. porte principale côté parking)"
+    escaliers: ["à préciser"]
+    auditoires:
+      - code: N1-A01
+        nom: "À remplir"
+        promotion: "À remplir (ex. L1 Sciences informatiques)"
+        position: 1            # 1 = le plus proche de l'entrée / escalier
+        cote: "gauche"         # gauche | droite | les_deux | inconnu
+        repere: "à préciser"
+        capacite: null
+      - code: N1-A02
+        nom: "À remplir"
+        promotion: "À remplir"
+        position: 2
+        cote: "gauche"
+        repere: "à préciser"
+        capacite: null
+
+  - niveau: 2
+    entree: "à préciser"
+    escaliers: ["à préciser"]
+    auditoires: []             # à remplir
+
+  - niveau: 3
+    entree: "à préciser"
+    escaliers: ["à préciser"]
+    auditoires: []             # à remplir
